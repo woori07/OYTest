@@ -18,8 +18,8 @@ def driver_setup(request):
      "appium:appActivity": "com.oliveyoung.presentation.home.MainActivity"
     })
     driver = webdriver.Remote(command_executor="http://localhost:4723", options=capabilities)
-    request.cls.driver = driver
-    yield
+
+    yield driver
     time.sleep(4)
     driver.terminate_app("com.oliveyoung")
     driver.quit()

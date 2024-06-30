@@ -1,5 +1,4 @@
 Appium-Python-Client~=4.0.0
 selenium~=4.22.0
 pytest~=8.2.2
-
 Contexts~=0.12
