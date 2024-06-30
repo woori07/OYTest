@@ -6,3 +6,7 @@ reports/
 /pytest
 /pytest.ini
 venv/
+.idea/
+__pycache__/
+*.pyc
+*.pyo
