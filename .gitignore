@@ -1,0 +1,8 @@
+dummyfile/
+allure-report/
+.pytest_cache/
+reports/
+/config.py
+/pytest
+/pytest.ini
+venv/
